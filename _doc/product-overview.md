@@ -13,7 +13,10 @@ Simple single-page website with two sections celebrating the Quantum x QuantumBy
 Visitors landing on the page — fans, partners, or anyone the Quantum x QuantumByte collaboration is introduced to.
 
 ## Brand & Tone
-Warm, celebratory, love-forward. Heavy use of heart/love iconography in Section 2. Logo placeholder to be replaced once supplied.
+Warm, celebratory, love-forward. Heavy use of heart/love iconography in Section 2.
+
+## Logo
+`https://client-api-stag.quantumbyte.ai/uploads/ec56u0u4/4480/assets/4187ac62-7d44-4d2c-bfa2-ce11374b1dad_1781691241709_0vsu6u.png`
 
 ## Positioning
 A love letter landing page — minimal, expressive, memorable. No forms, no nav, no CTA friction. Pure brand emotion.
