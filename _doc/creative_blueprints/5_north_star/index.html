@@ -1,0 +1,81 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; gap: 2.5rem; }
+  .mode-portrait .sl-layout { flex-direction: column; gap: 2rem; }
+  .mode-landscape .sl-left { width: 55%; }
+  .mode-landscape .sl-right { width: 45%; }
+  .mode-portrait .sl-left { width: 100%; }
+  .mode-portrait .sl-right { width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+    <!-- Header -->
+    <div class="mb-6">
+      <span class="text-rose-500 text-xs font-bold tracking-widest uppercase">North Star</span>
+      <h2 class="text-3xl font-black text-slate-900 mt-1">The Number That Matters</h2>
+      <p class="text-slate-500 text-xs mt-1 italic">Projected impact — based on your inputs</p>
+    </div>
+
+    <div class="sl-layout flex flex-1">
+      <!-- Left: Operation definition + formula -->
+      <div class="sl-left flex flex-col gap-4">
+        <!-- Verified Operation -->
+        <div class="bg-rose-50 border border-rose-100 rounded-2xl p-6">
+          <div class="text-rose-500 text-xs font-bold tracking-widest uppercase mb-2">Verified Operation</div>
+          <h3 class="text-slate-900 text-xl font-bold mb-2">Brand Moment Delivered</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            A visitor lands on the page and experiences both sections — greeting absorbed, love felt, collaboration understood. That's one verified brand moment.
+          </p>
+        </div>
+
+        <!-- Formula -->
+        <div class="bg-slate-900 rounded-2xl p-6 flex-1">
+          <div class="text-rose-400 text-xs font-bold tracking-widest uppercase mb-3">Weekly Formula</div>
+          <div class="space-y-2">
+            <div class="flex items-center gap-2">
+              <span class="bg-slate-700 text-slate-300 text-xs px-2 py-0.5 rounded font-mono">Assumption — adjust this</span>
+            </div>
+            <p class="text-white text-sm font-mono leading-relaxed">
+              <span class="text-rose-400">X</span> visitors/week<br/>
+              × <span class="text-rose-400">Y</span>% both-section completion<br/>
+              = <span class="text-rose-400 font-bold">WVO / week</span>
+            </p>
+            <p class="text-slate-400 text-xs mt-2 italic">
+              Fill in your actual traffic numbers to project your weekly brand moments.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Value block -->
+      <div class="sl-right flex flex-col gap-4">
+        <!-- Value per operation -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-6">
+          <div class="text-slate-500 text-xs font-bold tracking-widest uppercase mb-2">Value Per Brand Moment</div>
+          <div class="space-y-2 text-sm text-slate-700 leading-relaxed">
+            <p>Each visitor who absorbs the page = 1 warm brand impression on the Quantum x QuantumByte collaboration.</p>
+            <div class="flex items-center gap-2 mt-3">
+              <span class="bg-rose-100 text-rose-600 text-xs px-2 py-0.5 rounded font-mono">Assumption — adjust this</span>
+            </div>
+            <p class="text-slate-500 text-xs italic">Assign a $ value per impression based on your paid acquisition cost or brand budget.</p>
+          </div>
+        </div>
+
+        <!-- Projected total -->
+        <div class="bg-rose-500 rounded-2xl p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-rose-100 text-xs font-bold tracking-widest uppercase mb-2">Projected Annual Impact</div>
+            <div class="text-white text-4xl font-black mb-1">WVO × 52</div>
+            <div class="text-rose-100 text-sm">brand moments / year</div>
+          </div>
+          <p class="text-rose-100 text-xs mt-4 italic leading-relaxed">
+            Update these inputs with your real traffic data. Projections become facts when you measure.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-6">
+      <data-attribution />
+    </div>
+  </div>
+</section>
