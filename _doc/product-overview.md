@@ -1,0 +1,1 @@
+buatin simple 1 landing page 2 section. section pertama tulisannya Hello QuantumByte. section kedua tulisannya We Love Quantum x QuantumByte banyakin icon love love, nanti saya attach logo nya ya
