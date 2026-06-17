@@ -71,5 +71,33 @@ export const configurableSchemas: ConfigurableSchemas = {
         },
       ],
     },
+    {
+      fieldName: "heroHeading",
+      type: "string",
+      required: true,
+      label: "Hero Heading",
+      maxLength: 100,
+    },
+    {
+      fieldName: "heroSubtext",
+      type: "string",
+      required: false,
+      label: "Hero Subtext",
+      maxLength: 200,
+    },
+    {
+      fieldName: "celebrationHeading",
+      type: "string",
+      required: true,
+      label: "Celebration Heading",
+      maxLength: 150,
+    },
+    {
+      fieldName: "celebrationSubtext",
+      type: "string",
+      required: false,
+      label: "Celebration Subtext",
+      maxLength: 300,
+    },
   ],
 };

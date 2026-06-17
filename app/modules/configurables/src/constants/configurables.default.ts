@@ -16,31 +16,22 @@ export type TDefaultConfigurableData = {
   appName: string;
   logoUrl: string;
   brandColor: TBrandColor;
-  // Mirror new schema fields here. Example:
-  //   maxItemsPerPage?: number;
-  //   enableNotifications?: boolean;
-  //   featuredCategories?: string[];
+  heroHeading: string;
+  heroSubtext?: string;
+  celebrationHeading: string;
+  celebrationSubtext?: string;
 };
 
 export const defaultConfigurablesData: TDefaultConfigurableData = {
-  appName: "FILL_APP_NAME_HERE",
-  logoUrl: "FILL_LOGO_URL_HERE",
+  appName: "Quantum x QuantumByte",
+  logoUrl: "https://client-api-stag.quantumbyte.ai/uploads/ec56u0u4/4480/assets/4187ac62-7d44-4d2c-bfa2-ce11374b1dad_1781691241709_0vsu6u.png",
   brandColor: {
-    primary: "FILL_PRIMARY_COLOR_HERE",
-    secondary: "FILL_SECONDARY_COLOR_HERE",
-    accent: "FILL_ACCENT_COLOR_HERE",
+    primary: "#f43f5e",
+    secondary: "#fb7185",
+    accent: "#fda4af",
   },
-  // ─────────────────────────────────────────────────────────────────────
-  // Add new field defaults here. See RULES.md §5 for per-type shape.
-  // Required branding fields → use the FILL_X_HERE placeholder pattern.
-  // Optional/typed defaults → real value with a "// fill it here" comment:
-  //
-  //   maxItemsPerPage: 12,                     // fill it here
-  //   enableNotifications: true,               // fill it here
-  //   featuredCategories: [],                  // fill it here
-  //   defaultLanguage: "en",                   // must match enum options
-  //   launchDate: "2025-01-01T00:00:00.000Z",  // ISO-8601
-  //   heroImage: "",                           // resolved URL after upload
-  //   galleryImages: [],                       // array of resolved URLs
-  // ─────────────────────────────────────────────────────────────────────
+  heroHeading: "Hello QuantumByte",
+  heroSubtext: "A celebration of the Quantum x QuantumByte collaboration.",
+  celebrationHeading: "We Love Quantum x QuantumByte",
+  celebrationSubtext: "Thank you for this beautiful partnership. Here's to building great things together.",
 };
