@@ -1,0 +1,42 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-visual { width: 45%; }
+  .mode-portrait .sl-visual { width: 100%; height: 40%; }
+  .mode-landscape .sl-content { width: 55%; }
+  .mode-portrait .sl-content { width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+    <!-- Left: Content -->
+    <div class="sl-content flex flex-col justify-between p-12 bg-white">
+      <div>
+        <div class="flex items-center gap-2 mb-8">
+          <span class="text-rose-500 text-sm font-semibold tracking-widest uppercase">A Celebration Page</span>
+        </div>
+        <h1 class="text-5xl font-black text-slate-900 leading-tight mb-4">
+          Hello,<br/>
+          <span class="text-rose-500">QuantumByte</span>
+        </h1>
+        <p class="text-slate-500 text-lg font-normal mt-4 max-w-xs leading-relaxed">
+          A love letter from Quantum — simple, warm, and made with ❤️
+        </p>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div class="w-12 h-0.5 bg-rose-200"></div>
+        <data-attribution />
+      </div>
+    </div>
+    <!-- Right: Visual -->
+    <div class="sl-visual flex items-center justify-center bg-rose-50 relative overflow-hidden">
+      <img
+        src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=abstract%20love%20celebration%20with%20floating%20hearts%20in%20rose%20and%20pink%20tones%2C%20minimal%20editorial%20style%2C%20soft%20gradient%20background"
+        alt="Love celebration visual"
+        class="w-full h-full object-cover opacity-80"
+      />
+      <div class="absolute inset-0 flex items-center justify-center">
+        <span class="text-8xl">❤️</span>
+      </div>
+    </div>
+  </div>
+</section>
