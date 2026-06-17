@@ -12,6 +12,15 @@ export async function seedConfigurables(): Promise<void> {
     // Check if a singleton already exists
     const existing = await ConfigurableModel.findOne({ _singleton: true });
     if (existing) {
+      // Patch stale placeholder logo URL if present
+      const logoUrl = (existing.configurable_data as any)?.logoUrl;
+      if (logoUrl === "FILL_LOGO_URL_HERE") {
+        await ConfigurableModel.findOneAndUpdate(
+          { _singleton: true },
+          { $set: { "configurable_data.logoUrl": defaultConfigurablesData.logoUrl } },
+        ).exec();
+        logger.info("Patched stale placeholder logoUrl");
+      }
       return;
     }
 
