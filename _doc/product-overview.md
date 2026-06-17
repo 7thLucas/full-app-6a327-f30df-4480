@@ -25,7 +25,7 @@ A love letter landing page — minimal, expressive, memorable. No forms, no nav,
 - 1 page, 2 sections
 - Section 1: "Hello QuantumByte" hero
 - Section 2: "We Love Quantum x QuantumByte" with abundant ❤️ icons
-- Logo: to be attached and integrated by owner
+- Logo: integrated (owner-supplied asset)
 
 ## Strategic Principles
 - Simplicity over complexity
