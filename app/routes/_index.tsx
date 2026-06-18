@@ -48,7 +48,7 @@ export default function IndexPage() {
     );
   }
 
-  const heroHeading = config?.heroHeading ?? "Hello QuantumByte";
+  const heroHeading = config?.heroHeading ?? "Hello QuantumByte Lovee";
   const heroSubtext = config?.heroSubtext ?? "A celebration of the Quantum x QuantumByte collaboration.";
   const celebrationHeading = config?.celebrationHeading ?? "We Love Quantum x QuantumByte";
   const celebrationSubtext = config?.celebrationSubtext ?? "Thank you for this beautiful partnership.";
